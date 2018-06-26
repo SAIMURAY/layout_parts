@@ -1,5 +1,147 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.common__btn__s {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 26px;
+  padding: 0 15px;
+  height: 26px;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #00bcd4;
+  margin-right: 10px;
+}
+.error__btn__s {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 26px;
+  padding: 0 15px;
+  height: 26px;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff4081;
+  margin-right: 10px;
+}
+.disable__btn__s {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 26px;
+  padding: 0 15px;
+  height: 26px;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e5e5e5;
+  margin-right: 10px;
+}
+.shadow__btn__s {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 26px;
+  padding: 0 15px;
+  height: 26px;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+}
 
+.common__btn__m {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 32px;
+  padding: 0 20px;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #00bcd4;
+  margin-right: 10px;
+}
+.error__btn__m {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 32px;
+  padding: 0 20px;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ff4081;
+  margin-right: 10px;
+}
+.disable__btn__m {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 32px;
+  padding: 0 20px;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #e5e5e5;
+  margin-right: 10px;
+}
+.shadow__btn__m {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 32px;
+  padding: 0 20px;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+}
+
+.common__btn__l {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 38px;
+  padding: 0 25px;
+  height: 38px;
+  border-radius: 7px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #00bcd4;
+  margin-right: 10px;
+}
+.error__btn__l {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 38px;
+  padding: 0 25px;
+  height: 38px;
+  border-radius: 7px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #ff4081;
+  margin-right: 10px;
+}
+.disable__btn__l {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 38px;
+  padding: 0 25px;
+  height: 38px;
+  border-radius: 7px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #e5e5e5;
+  margin-right: 10px;
+}
+.shadow__btn__l {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 38px;
+  padding: 0 25px;
+  height: 38px;
+  border-radius: 7px;
+  font-size: 24px;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+}
 /* 回答はここに書いてね */

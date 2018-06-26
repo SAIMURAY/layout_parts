@@ -1,5 +1,143 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::before,
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.q10 {
+  background-color: #ECF1F2;
+  margin: 0 auto;
+  padding: 20px;
+  width: 700px;
+}
+.q10__title {
+  margin-bottom: 20px;
+  position: relative;
+}
+.q10__title::before {
+  background-color: #ccc;
+  content: '';
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.q10__title__txt {
+  background-color: #ECF1F2;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 10px;
+  position: relative;
+}
+.main {
+  float: left;
+  width: 300px;
+}
+.main__items {
+  margin-bottom: 20px;
+}
+.items__title {
+  float: left;
+  line-height: 25px;
+  text-align: right;
+  width: 100px;
+}
+.red {
+  color: #F00;
+}
+.items__content {
+  float: right;
+  width: 180px;
+}
+.input__init {
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.input {
+  background-color: #FFF;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 5px;
+  width: 100%;
+}
+.main__items > li:not(:first-child) {
+  margin-top: 20px;
+}
+.radio {
+  cursor: pointer;
+}
+.radio__btn {
+  display: none;
+}
+.radio__txt {
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  position: relative;
+}
+.radio__txt::before {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  margin-top: -8px;
+}
+.radio__btn:checked +
+.radio__txt::after {
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  height: 8px;
+  width: 8px;
+  margin-top: -4px;
 
+}
+.main__bottom {
+  text-align: right;
+}
+.main__bottom__btn {
+  background-color: #00BCD4;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 10px;
+
+}
+.side {
+  float: right;
+  width: 380px;
+}
+.side__txt {
+  background-color: #FFF;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 12px;
+  height: 203px;
+  padding: 10px;
+  resize: none;
+  width: 100%
+}
 /* 回答はここに書いてね */
