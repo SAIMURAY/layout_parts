@@ -27,6 +27,9 @@
   border: 1px solid #00BCD4;
   border-radius: 5px;
 }
+.type__text:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
 .type__text::placeholder {
   color: #00BCD4;
 }

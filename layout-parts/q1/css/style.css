@@ -20,9 +20,9 @@
   padding: 20px;
 }
 .main .contents:first-child {
-  margin: 0;
+  margin-left: 0;
 }
-.list {
+.text {
   background-color: #eaf4ff;
   border: 10px solid #022336;
   padding: 20px;

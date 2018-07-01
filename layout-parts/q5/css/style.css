@@ -33,7 +33,8 @@
   padding: 10px;
 }
 .flex__inner {
-  display:inline-block;
+  display:flex;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
   height: 100%;

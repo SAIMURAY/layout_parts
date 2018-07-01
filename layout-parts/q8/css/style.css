@@ -5,43 +5,30 @@
   display: table;
   width: 100%;
 }
-.pink {
-  background-color: #fdc8b8;
+.table {
   display: table-cell;
   padding: 20px 0;
   text-align: center;
+}
+.pink {
+  background-color: #fdc8b8;
   width: 100px;
 }
 .purple {
   background-color: #e0abd9;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
 }
 .blue {
   background-color: #b6d8ed;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
   width: 100px;
 }
 .yellow {
   background-color: #e5d32e;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
-}
+ }
 .right__yellow {
   background-color: #e4e67c;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
 }
 .green {
   background-color: #8fdcad;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
   width: 500px;
 }
 /* 回答はここに書いてね */

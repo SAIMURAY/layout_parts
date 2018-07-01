@@ -11,56 +11,39 @@
   line-height: 50px;
   text-align: center;
   width: 100%;
+  box-sizing: border-box;
 }
 .number {
   background-color: #fff;
 }
-.twelve {
-  height: 50px;
+.contents {
   display: grid;
+  grid-gap: 20px;
+  grid-template-rows: 50px;
+}
+.twelve {
   width: 100%;
   background-color: #fff;
 }
-.contents__six {
-  display: grid;
-  grid-gap: 20px;
+.six {
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px;
 }
-.contents__four {
-  display: grid;
-  grid-gap: 20px;
+.four {
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px;
 }
-.contents__three {
-  display: grid;
-  grid-gap: 20px;
+.three {
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px;
 }
-.contents__two__four {
-  display: grid;
-  grid-gap: 20px;
+.two__four {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px;
 }
-.contents__two {
-  display: grid;
-  grid-gap: 20px;
+.two {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px;
 }
-.contents__mix {
-  display: grid;
-  grid-gap: 20px;
+.mix {
   grid-template-columns: 6fr 3fr 3fr;
-  grid-template-rows: 50px;
 }
-.contents__mix__two {
-  display: grid;
-  grid-gap: 20px;
+.mix__two {
   grid-template-columns: 2fr 2fr 4fr 4fr;
-  grid-template-rows: 50px;
 }
 /* 回答はここに書いてね */

@@ -4,17 +4,20 @@
 .main {
   background-color: #eff3f4;
   width: 900px;
-  font-size: 18px;
-  line-height: 22px;
   padding: 20px;
   margin: 0 auto;
 }
-.baloon {
+.txt {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+.img__left {
   float: left;
   margin-bottom: 10px;
   margin-right: 20px;
 }
-.simble {
+.img__right {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;
